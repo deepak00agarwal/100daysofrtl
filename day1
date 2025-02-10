@@ -1,1 +1,3 @@
-
+module day1(input a_in, b_in, sel , output reg y_out);
+assign y_out = sel ? b_in:a_in;
+endmodule
